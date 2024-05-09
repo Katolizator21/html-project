@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="div1">1. div</div>
+    <div id="div2">2. div</div>
+    <div id="div3">3. div</div>
+    <div id="div4">4. div</div>
+    <button onclick="js:Degistir()">Değiştir</button>
+
+    <script type="text/javascript">
+        function Degistir(){
+            document.getElementById("div1").innerHTML="Nigar";
+            document.getElementById("div2").innerHTML="İyiki";
+            document.getElementById("div3").innerHTML="Varsın";
+            document.getElementById("div4").innerHTML="I love you";
+            
+            var tumDivler=document.getElementsByTagName("div");
+            for(i=0; i<tumDivler.length;  i++){
+                tumDivler[i].innerHTML="DIV"+i;
+            }
+            tumDivler[1].style.fontWeight="Bold";
+            tumDivler[2].style.color="red";
+            tumDivler[3].style.backgroundColor="pink";
+        }
+    </script>
+    
+</body>
+</html>,
