@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hakindastyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <p><b class="baslik" style="font-size: 40px;">En Sevdiyim Sportlar:</b></p>
+
+    <div class="controls">
+        <h1 class="paragraf">Football</h1>
+        <i class='bx bxs-chevron-left-circle' style="margin-top: -25%;" alt="left" id="leftBtn" ></i>
+        <div class="container1">
+            <div class="gallery">
+                <span><img src="https://ppcdn.500px.org/59756342/c4a19e74f8f052ffce78266cbdb34ccd6ccc0457/4.jpg" style="margin-top: 250px;"></span>
+            </div>
+            <div class="gallery">
+                <span><img src="https://img.freepik.com/free-photo/soccer-player-on-the-field-with-ball_23-2150888241.jpg?w=996&t=st=1715863283~exp=1715863883~hmac=fd6bd7bc2350b48fcaf20ac3e90d14896794a10f01c977af6dc9c53971917468" style="margin-top: 250px;"></span>
+            </div>
+            <div class="gallery">
+                <span><img src="https://cdn.create.vista.com/api/media/small/82321792/stock-photo-upper-view-on-football-stadium-with-fans-in-the-stands" style="margin-top: 250px;"></span>
+            </div>
+            <div class="gallery">
+                <span><img src="https://cdn.britannica.com/51/190751-131-B431C216/soccer-ball-goal.jpg" style="margin-top: 250px;margin-left: 50px;"></span>
+            </div>
+            <div class="gallery">
+                <span><img src="https://caspiannews.com/media/caspian_news/all_original_photos/1665752020_9527419_1665751928_1051185e7dd7c896633e58ea5_6UXQ1vq.jpg" style="margin-top: 250px;margin-left: 10px;"></span>
+            </div>
+            <div class="gallery">
+                <span><img src="https://cdn.iticket.az/event/artist/1GwxsPvyr0kREzR0huHXa6cgSlNBZmXkQC7IbH1D.png" style="margin-top: 280px;margin-left: 100px;"> </span>
+            </div>    
+        </div>
+        <i class='bx bxs-chevron-right-circle' style="margin-top: -25%;" alt="right" id="rightBtn" ></i>        
+    </div>
+    <div class="textF">
+        <p>Football Türkiye'de sadece bir spor değil, milyonlarca insanı bir araya getiren bir tutku. Her hafta sonu Türk taraftarlar favori takımlarının maçlarını heyecanla bekliyorlar. Stadyumlar taraftarların yüksek sesle bağırmasıyla dolup, inanılmaz bir atmosfer oluşturuyorlar.
+
+            Süper Lig, ülkedeki ana rekabet alanıdır, burada en iyi kulüpler şampiyonluk için yarışıyorlar. Galatasaray, Fenerbahçe ve Beşiktaş gibi kulüplerin büyük taraftar kitlesi ve yerel ve uluslararası düzeyde başarıları var.
+            
+            Türkiye Milli Takımı da taraftarlarını gururlandırıyor. Avrupa Şampiyonası ve Dünya Kupası gibi büyük turnuvalara katılımları her zaman gerilim dolu duygularla ve başarı umutlarıyla dolu oluyor.
+            
+            Türkiye'de futbol sadece bir oyun değil, nesiller arasında aktarılan bir kültür parçasıdır.</p>
+    </div>
+    <script>
+        let horizontScroll=document.querySelector('.container1')
+        let leftBtn=document.getElementById('leftBtn')
+        let rightBtn=document.getElementById('rightBtn')
+
+        rightBtn.addEventListener('click', ()=>{
+            horizontScroll.style.scrollBehavior = "smooth"
+            horizontScroll.scrollLeft +=900;
+        });  
+
+        leftBtn.addEventListener('click', ()=>{
+            horizontScroll.style.scrollBehavior = "smooth"
+            horizontScroll.scrollLeft -=900;
+        });       
+    </script>
+
+    <!--Controls1-->
+
+
+<div class="controls1">
+    <h1 class="paragraf1">Volleyball</h1>
+    <i class='bx bxs-chevron-left-circle' style="margin-top: -25%;" alt="left1" id="leftBtn1" ></i>
+    <div class="container2">
+        <div class="gallery1">
+            <span><img src="https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/62319e116acda9d980cccc68_beach-volleyball-at-sunset-enjoyment-concept-2021-08-26-23-57-38-utc-min.jpg" style="margin-top: 250px;"></span>
+        </div>
+        <div class="gallery1">
+            <span><img src="https://www.volleyballengland.org/uploads/images/w1500/7934.png" style="margin-top: 300px;"></span>
+        </div>
+        <div class="gallery1">
+            <span><img src="https://ncas.org.au/wp-content/uploads/2021/05/miguel-teirlinck-VDkRsT649C0-unsplash-2048x1365.jpg" style="margin-top: 250px;margin-left: 50px;"></span>
+        </div>
+        <div class="gallery1">
+            <span><img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dm9sbGV5YmFsbHxlbnwwfHwwfHx8MA%3D%3D" style="margin-top: 250px;"></span>
+        </div>
+        <div class="gallery1">
+            <span><img src="https://media.istockphoto.com/id/1371823675/photo/bad-shot.jpg?s=612x612&w=0&k=20&c=JK8hNxPDZ1CQKLHCm17-KrLrb0KOcT3D5jbzYtkk40c=" style="margin-top: 250px;"></span>
+        </div>
+        <div class="gallery1">
+            <span><img src="https://cdn.iticket.az/event/artist/1GwxsPvyr0kREzR0huHXa6cgSlNBZmXkQC7IbH1D.png" style="margin-top: 280px;"> </span>
+        </div>               
+    </div>
+    <i class='bx bxs-chevron-right-circle' style="margin-top: -25%;" alt="right1" id="rightBtn1" ></i>        
+</div>
+
+<div class="textV">
+    <p>Voleybol, plajda, salonlarda veya çim sahada oynanan heyecan verici bir takım oyunudur. İki karşıt takım, sadece ellerini kullanarak topu rakibin alanına geçirmeye çalışır. Voleybol, oyunculardan hızlı tepki, dayanıklılık ve iyi hareket koordinasyonu gerektirir.
+
+        Bu oyun, eğlence amaçlı ve profesyonel spor olarak dünya genelinde popülerlik kazanmıştır. Her yıl, Olimpiyat Oyunları da dahil olmak üzere birçok turnuva düzenlenmektedir, dünyanın dört bir yanından en iyi takımlar şampiyon unvanı için yarışmaktadır.
+        
+        Voleybol, fiziksel formun gelişimine, takım ruhuna ve stratejik düşünmeye katkıda bulunur. Tüm yaş gruplarından ve düzeylerden insanlar için erişilebilir olduğundan, spor yapma ve rekreasyon için popüler bir tercihtir.</p>
+</div>
+
+<script>
+    let horizontScroll1=document.querySelector('.container2')
+    let leftBtn1=document.getElementById('leftBtn1')
+    let rightBtn1=document.getElementById('rightBtn1')
+
+    rightBtn1.addEventListener('click', ()=>{
+        horizontScroll1.style.scrollBehavior = "smooth"
+        horizontScroll1.scrollLeft +=900;
+    });  
+
+    leftBtn1.addEventListener('click', ()=>{
+        horizontScroll1.style.scrollBehavior = "smooth"
+        horizontScroll1.scrollLeft -=900;
+    });       
+</script>
+
+
+
+</body>
+</html>
